@@ -25,8 +25,3 @@ ADD files/myapplication.war "C:/ProgramData"
 # copy chromedriver.exe to the same level of your application
 # assumming your application 
 ADD files/drivers/chromedriver.exe "C:/ProgramData/drivers"
-
-EXPOSE 8080
-
-# run your application
-CMD ["java", "-jar", "C:/ProgramData/myapplication.war"]
